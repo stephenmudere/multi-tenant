@@ -23,11 +23,11 @@
         "docs": "https://laravel-tenancy.com"
     },
     "require": {
-        "php": "7.*",
-        "phpseclib/phpseclib": "~2.0",
-        "doctrine/dbal": "~2.5",
-        "ramsey/uuid": "^3.5",
-        "laravel/framework": "7.*"
+        "php": ">=7.2.25",
+        "phpseclib/phpseclib": ">=2.0",
+        "doctrine/dbal": ">=2.5",
+        "ramsey/uuid": ">=3.5",
+        "laravel/framework": ">=6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~7.0",
