@@ -34,7 +34,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 class Hostname extends SystemModel implements HostnameContract
 {
-    use SoftDeletes;
+    //use SoftDeletes;
 
     protected $dates = ['under_maintenance_since'];
 

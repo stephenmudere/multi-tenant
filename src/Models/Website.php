@@ -31,7 +31,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 class Website extends SystemModel implements WebsiteContract
 {
-    use SoftDeletes;
+    //use SoftDeletes;
 
     public function hostnames(): HasMany
     {
